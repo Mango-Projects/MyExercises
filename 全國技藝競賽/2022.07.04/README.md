@@ -2,7 +2,7 @@
 
 |Title|Complete?|
 |---|:-:|
-|Q10591：Happy Number|X|
+|Q10591：Happy Number|O|
 |Q10622：Perfect Pth Powers|X|
 |Q10633：Rare Easy Problem|X|
 |Q10684：The jackpot|X|
