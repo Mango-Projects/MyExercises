@@ -10,4 +10,4 @@
 |Q10706：Number Sequence|X|
 |Q10714：Ants|X|
 
-[^Sexy Prime]: https://en.wikipedia.org/wiki/Sexy_prime
+[^Sexy Prime]: Sexy Prime [https://en.wikipedia.org/wiki/Sexy_prime]
