@@ -13,6 +13,6 @@
 |Problem1：找出文章中使用的英文單字字數|O|
 |Q101：The Block Problem|X|
 
-[^十进制小数转化为二进制小数]: https://www.runoob.com/w3cnote/decimal-decimals-are-converted-to-binary-fractions.html
-[^itertools.permutations]: https://docs.python.org/zh-tw/3.9/library/itertools.html#itertools.permutations
-[^fib]: https://zh.wikipedia.org/zh-tw/斐波那契数#程式參考
+[^十进制小数转化为二进制小数]: 十进制小数转化为二进制小数 [https://www.runoob.com/w3cnote/decimal-decimals-are-converted-to-binary-fractions.html]
+[^itertools.permutations]: itertools.permutations [https://docs.python.org/zh-tw/3.9/library/itertools.html#itertools.permutations]
+[^fib]: 斐波那契数 [https://zh.wikipedia.org/zh-tw/斐波那契数#程式參考]
