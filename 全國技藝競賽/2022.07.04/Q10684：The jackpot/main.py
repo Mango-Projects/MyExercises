@@ -8,18 +8,19 @@ while (i:=nums[0]) != 0:
         nums.pop(0)
 
 length = len(nums_table)
-wins = [0] * length
+wins = []
 
 for idx, nums in enumerate(nums_table):
-    _ = []
-    for i in range(1, length):
-        lst = []
-        max_ = length - i + 1
-        for j in range(max_):
-            lst.append(sum(nums[j:j+i]))
-            print(lst)
-        _.append(lst)
-    wins[idx] = max(_)
-    print()
+    _ = -1
+    for i in range(len(nums)):
+        for j in range(i+1, len(nums)+1):
+            if (n:=sum(nums[i:j])) >= _:
+                _ = n
+    wins.append(_)
 
-print(wins)
+with open('./output.txt', 'w') as file:
+    file.writelines(
+        '\n'.join(
+            f'The maximum winning streak is {result}.' if result > 0 else 'Losing streak.' for result in wins
+            )
+        )
