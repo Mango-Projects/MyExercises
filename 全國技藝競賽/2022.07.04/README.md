@@ -6,8 +6,8 @@
 |Q10622：Perfect Pth Powers|X|
 |Q10633：Rare Easy Problem|X|
 |Q10684：The jackpot|O|
-|Q10699：Count the factors[^Sexy Prime]|O|
+|Q10699：Count the factors[^SexyPrime]|O|
 |Q10706：Number Sequence|X|
 |Q10714：Ants|X|
 
-[^Sexy Prime]: Sexy Prime [https://en.wikipedia.org/wiki/Sexy_prime]
+[^SexyPrime]: Sexy Prime [https://en.wikipedia.org/wiki/Sexy_prime]
