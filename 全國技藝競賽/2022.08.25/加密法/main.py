@@ -3,7 +3,7 @@ with open('./input.txt') as file:
 
 def encryption(string: str, digit: int = 3) -> str:
     for item in string:
-        yield chr(ord(item) ^ 0b111)
+        yield chr(ord(item) ^ 2**digit-1)
 
 with open('./output.txt', 'w') as file:
     for i in encryption(data):
