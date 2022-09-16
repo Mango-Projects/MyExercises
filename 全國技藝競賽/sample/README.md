@@ -2,4 +2,4 @@
 
 |Title|File|Finish?|
 |---|:-:|:-:|
-||[.//main.py](.//main.py)|X|
+||[./main.py](./main.py)|X|
