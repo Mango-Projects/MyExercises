@@ -1,5 +1,3 @@
-with open('./input.txt') as file:
-    ...
+from sys import stdin
 
-with open('./output.txt', 'w') as file:
-    ...
+data = map(int, stdin.read().splitlines())
