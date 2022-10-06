@@ -7,5 +7,5 @@
 |Problem 3|[./Problem3.py](./Problem%203.py)|:o:|
 |Problem 4|[./Problem4.py](./Problem%204.py)|:o:|
 |Problem 5|[./Problem5.py](./Problem%205.py)|:o:|
-|Problem 6|[./Problem6.py](./Problem%206.py)|:x:|
+|Problem 6|[./Problem6.py](./Problem%206.py)|:o:|
 |Problem 7|[./Problem7.py](./Problem%207.py)|:o:|

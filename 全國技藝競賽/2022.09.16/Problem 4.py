@@ -1,6 +1,7 @@
 from sys import stdin
 
-count, *heights = 10, 82, 53, 74, 84, 45, 46, 57, 67, 43, 47
+count, *heights = map(int, stdin.read().splitlines())
+# count, *heights = 10, 82, 53, 74, 84, 45, 46, 57, 67, 43, 47
 heights = heights[:count]
 
 length = len(heights)

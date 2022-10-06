@@ -1,7 +1,7 @@
 from sys import stdin
 
-# count, *students = map(int, stdin.read().splitlines())
-count, *students = [3, 8, 12, 48]
+count, *students = map(int, stdin.read().splitlines())
+# count, *students = [3, 8, 12, 48]
 students = students[:count]
 
 table_of_times = 1
