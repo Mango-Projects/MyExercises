@@ -9,12 +9,14 @@
 
 # =====================================================================
 
-from os import listdir
-from os.path import isdir
+# from os import listdir
+# from os.path import isdir
 
-for dirname in listdir('.'):
-    if isdir(f'./{dirname}'):
-        with open(f'./{dirname}/main.py', encoding='utf8') as file:
-            code_data = file.read()
-        with open(f'./{dirname}.py', 'w', encoding='utf8') as file:
-            file.write(code_data)
+# for dirname in listdir('.'):
+#     if isdir(f'./{dirname}'):
+#         with open(f'./{dirname}/main.py', encoding='utf8') as file:
+#             code_data = file.read()
+#         with open(f'./{dirname}.py', 'w', encoding='utf8') as file:
+#             file.write(code_data)
+
+# =====================================================================
