@@ -1,4 +1,6 @@
-# 2022.10.18
+"""
+2022.10.18 finish
+"""
 
 values = []
 while (value:=input()) != '0 0 0 0':

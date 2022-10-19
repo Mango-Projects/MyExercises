@@ -1,5 +1,6 @@
-# 2022.10.18
-
+"""
+2022.10.18 finish
+"""
 input_times = int(input())
 values = [input() for _ in range(input_times)]
 
