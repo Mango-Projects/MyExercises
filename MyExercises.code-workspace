@@ -1,29 +1,17 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"cSpell.words": [
-			"coef",
-			"PYTHONPATH"
-		]
-	},
-	"launch": {
-		"version": "0.2.0",
-		"configurations": [
-			{
-				"name": "Python: Current Dir (external)",
-				"type": "python",
-				"request": "launch",
-				"cwd": "${fileDirname}",
-				"program": "${file}",
-				"console": "externalTerminal",
-				"env": {
-					"PYTHONPATH": "${workspaceRoot}"
-				},
-			}
-		]
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "cSpell.words": [
+            "coef",
+            "PYTHONPATH"
+        ],
+        "editor.fontFamily": "'Source Code Pro', 'Source Code Pro'",
+        "editor.renderControlCharacters": true,
+        "editor.renderWhitespace": "all",
+        "editor.tabSize": 4,
+    }
 }

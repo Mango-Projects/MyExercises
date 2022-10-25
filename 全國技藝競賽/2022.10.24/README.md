@@ -2,8 +2,8 @@
 
 | Title     | File                               | Finish? |
 |-----------|------------------------------------|:-------:|
-| Problem 1 | [./Problem 1.py](./Problem%201.py) | :x:     |
-| Problem 2 | [./Problem 2.py](./Problem%202.py) | :x:     |
+| Problem 1 | [./Problem 1.py](./Problem%201.py) | :o:     |
+| Problem 2 | [./Problem 2.py](./Problem%202.py) | :o:     |
 | Problem 3 | [./Problem 3.py](./Problem%203.py) | :x:     |
 | Problem 4 | [./Problem 4.py](./Problem%204.py) | :x:     |
 | Problem 5 | [./Problem 5.py](./Problem%205.py) | :x:     |
