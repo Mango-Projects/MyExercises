@@ -5,10 +5,9 @@ data_input = stdin.read().splitlines()
 def step(number_array: list[int]) -> bool:
     while True:
         number_array.sort(reverse=True)
-        for index, number in enumerate(number_array[1:]):
-            number = number-number_array[0]
-            print()
-            if number < 0:
+        k = number_array[0]
+        for index, number in enumerate(number_array[1:k+2]):
+            if number - k < 0:
                 return False
             number_array[index+1] = number
         number_array.pop(0)

@@ -1,5 +1,14 @@
 from sys import stdin, stdout
+from re import findall
 
-data_input = stdin.read().splitlines()
-data_count = int(data_input[0])
-data_set = data_input[1:data_count+1]
+"""testdata
+Tom Lin's employee number is A123BSC45
+The price is 45 US dollars
+The machine code is 65K2
+"""
+
+for data in stdin.read().splitlines():
+    if findall(r'\d[A-Z]{1,3}\d', data):
+        stdout.write('有\n')
+    else:
+        stdout.write('沒有\n')
