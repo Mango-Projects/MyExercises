@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": [
+        "102",
+        "110",
+        "210",
+        "204",
+        "306",
+        "304",
+        "408",
+        "410",
+        "502",
+        "504",
+        "602",
+        "608"
+    ],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "java.debug.settings.onBuildFailureProceed": true
+}
