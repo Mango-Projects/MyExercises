@@ -7,7 +7,7 @@ for i in range(h):
     r_list=[]
     for j in range(len(inp)):
         r_list.append(inp[j])
-        m.append(r_list)
+    m.append(r_list)
 # generate output
 for i in range(h):
     out=''
