@@ -3,9 +3,8 @@ import java.io.FileWriter;
 import java.util.Scanner;
 
 public class JPA05 {
-	static Scanner scanner = new Scanner(System.in);
-
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
 
 		try {
 			String input = scanner.nextLine();
@@ -19,13 +18,13 @@ public class JPA05 {
 
 			fileWriter.write(input);
 			fileWriter.close();
-			
+
 			Scanner reader = new Scanner(file);
 			System.out.print("write:" + reader.nextLine());
 			reader.close();
+			
 		} catch (Exception error) {
 			System.out.print("error");
-			return;
 		}
 	}
 }

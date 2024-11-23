@@ -1,15 +1,14 @@
 import java.util.Scanner;
 
 public class JPA03 {
-
 	public static void main(String args[]) {
-
 		int a[][] = { { 1, 2, 3 }, { 4, 5, 6 } };
 		int b[][] = new int[2][3];
 		int c[][] = new int[2][3];
 		Scanner scanner = new Scanner(System.in);
 		String str = scanner.nextLine();
 		String[] a1 = str.split(" ");
+		
 		if (a1.length < 6) {
 			System.out.print("error");
 			return;

@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class JPA04 {
-	static Scanner scanner = new Scanner(System.in);
-
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
 		try {
 			String[] input = scanner.next().split(":");
 			int hours = Integer.parseInt(input[0]);
@@ -17,7 +16,6 @@ public class JPA04 {
 
 		} catch (Exception ex) {
 			System.out.print("error");
-			return;
 		}
 	}
 }

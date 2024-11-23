@@ -3,9 +3,8 @@ import java.io.FileWriter;
 import java.util.Scanner;
 
 public class JPA05 {
-	static Scanner sanner = new Scanner(System.in);
-
 	public static void main(String[] args) {
+		Scanner sanner = new Scanner(System.in);
 
 		String[] new_student = { "Sam", "1981/10/1", "A234567890" };
 
@@ -25,9 +24,9 @@ public class JPA05 {
 			FileWriter fileWriter = new FileWriter(file);
 			fileWriter.write(text + "\r\n");
 			fileWriter.close();
+
 		} catch (Exception ex) {
 			System.out.print("error");
-			return;
 		}
 	}
 }

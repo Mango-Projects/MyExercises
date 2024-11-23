@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class JPA01 {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int n1 = 0, n5 = 0, n10 = 0;

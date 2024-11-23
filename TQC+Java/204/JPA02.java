@@ -1,16 +1,13 @@
 import java.util.Scanner;
 
 public class JPA02 {
-
 	public static void main(String[] args) {
-
 		Scanner scanner = new Scanner(System.in);
 		int x = 0, y = 0;
 
 		try {
 			x = scanner.nextInt();
 			y = scanner.nextInt();
-			scanner.close();
 			if (x > 100 || x <= 0 || y > 100 || y <= 0) {
 				System.out.print("error");
 				return;

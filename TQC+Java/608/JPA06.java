@@ -14,10 +14,12 @@ class Bag {
 
 class Air extends Bag {
 	int deliveryhours;
+
 	Air(String $receiptdate, int $unitcost, int $deliveryhours) {
 		super($receiptdate, $unitcost);
 		deliveryhours = $deliveryhours;
 	}
+
 	double computeFreight() {
 		return unitcost * deliveryhours;
 	}
@@ -34,10 +36,10 @@ public class JPA06 {
 				return;
 			}
 
-        	String pathname = "read.txt";
+			String pathname = "read.txt";
 			File file = new File(pathname);
 			Scanner reader = new Scanner(file);
-			
+
 			double totalDeliveryhours = 0;
 			for (int i = 0; i < 5; i++) {
 				String[] data = reader.nextLine().split(",");
@@ -45,7 +47,7 @@ public class JPA06 {
 				totalDeliveryhours += air.computeFreight();
 			}
 			reader.close();
-			System.out.print((int)totalDeliveryhours);
+			System.out.print((int) totalDeliveryhours);
 		} catch (Exception e) {
 			System.out.print("error");
 			return;
